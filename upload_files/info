@@ -1,0 +1,36 @@
+[2023-10-29 18:30:15,698: WARNING/MainProcess] D:\Dev\upload_files\venv\lib\site-packages\celery\worker\consumer\consumer.py:507: CPendingDeprecationWarning: The broker_connection_retry configuration setting will no longer determine
+whether broker connection retries are made during startup in Celery 6.0 and above.
+If you wish to retain the existing behavior for retrying connections on startup,
+you should set broker_connection_retry_on_startup to True.
+  warnings.warn(
+
+[2023-10-29 18:30:15,715: INFO/MainProcess] Connected to redis://localhost:6379//
+[2023-10-29 18:30:15,715: WARNING/MainProcess] D:\Dev\upload_files\venv\lib\site-packages\celery\worker\consumer\consumer.py:507: CPendingDeprecationWarning: The broker_connection_retry configuration setting will no longer determine
+whether broker connection retries are made during startup in Celery 6.0 and above.
+If you wish to retain the existing behavior for retrying connections on startup,
+you should set broker_connection_retry_on_startup to True.
+  warnings.warn(
+
+[2023-10-29 18:30:15,746: INFO/MainProcess] mingle: searching for neighbors
+[2023-10-29 18:30:16,140: INFO/SpawnPoolWorker-1] child process 23328 calling self.run()
+[2023-10-29 18:30:16,219: INFO/SpawnPoolWorker-4] child process 18784 calling self.run()
+[2023-10-29 18:30:16,226: INFO/SpawnPoolWorker-5] child process 16480 calling self.run()
+[2023-10-29 18:30:16,233: INFO/SpawnPoolWorker-2] child process 4472 calling self.run()
+[2023-10-29 18:30:16,240: INFO/SpawnPoolWorker-3] child process 8412 calling self.run()
+[2023-10-29 18:30:16,313: INFO/SpawnPoolWorker-6] child process 20408 calling self.run()
+[2023-10-29 18:30:16,345: INFO/SpawnPoolWorker-7] child process 21260 calling self.run()
+[2023-10-29 18:30:16,360: INFO/SpawnPoolWorker-8] child process 17484 calling self.run()
+[2023-10-29 18:30:16,859: INFO/MainProcess] mingle: all alone
+[2023-10-29 18:30:16,999: INFO/MainProcess] celery@DESKTOP-E70H1CU ready.
+[2023-10-29 18:30:17,011: INFO/MainProcess] Task loader.tasks.process_file[4b626e8f-8b4e-4613-86b9-4f66a69b4024] received
+[2023-10-29 18:30:17,012: INFO/MainProcess] Task loader.tasks.process_file[f62ab648-5aaa-4ec2-87b8-3a29f8f1ecb4] received
+[2023-10-29 18:30:17,487: INFO/SpawnPoolWorker-9] child process 6412 calling self.run()
+[2023-10-29 18:30:17,579: INFO/SpawnPoolWorker-10] child process 18824 calling self.run()
+[2023-10-29 18:30:49,418: INFO/MainProcess] Task loader.tasks.process_file[3bdd28cb-061c-4048-8798-e7f7b3191afe] received
+[2023-10-29 18:30:50,600: INFO/SpawnPoolWorker-11] child process 19856 calling self.run()
+[2023-10-29 18:30:50,633: INFO/SpawnPoolWorker-12] child process 10472 calling self.run()
+[2023-10-29 18:30:50,641: INFO/SpawnPoolWorker-13] child process 13416 calling self.run()
+[2023-10-29 18:30:50,666: INFO/SpawnPoolWorker-14] child process 12856 calling self.run()
+[2023-10-29 18:30:50,699: INFO/SpawnPoolWorker-15] child process 8580 calling self.run()
+[2023-10-29 18:30:50,703: INFO/SpawnPoolWorker-16] child process 3920 calling self.run()
+[2023-10-29 18:30:50,766: INFO/SpawnPoolWorker-17] child process 23784 calling self.run()

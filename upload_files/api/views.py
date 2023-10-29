@@ -2,8 +2,8 @@ from rest_framework import viewsets, status
 from rest_framework.response import Response
 
 from loader.models import Files
+from loader.tasks import process_file
 from .serializers import FilesSerializer
-
 
 class FileUploadViewSet(viewsets.ModelViewSet):
     """ВЬюсет для работы с добавлением файла"""
@@ -14,6 +14,8 @@ class FileUploadViewSet(viewsets.ModelViewSet):
         serializer = self.get_serializer(data=request.data)
         if serializer.is_valid():
             serializer.save()
+            file_id = serializer.data.get('id')
+            process_file.delay(file_id)
             return Response(serializer.data, status=status.HTTP_201_CREATED)
         else:
             return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
